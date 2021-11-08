@@ -23,7 +23,7 @@ jobs:
       - name: Run typescript lint and format check
         run: npm run lint:ts
       - name: Run styles lint and format check
-        run: npm run lint:css  
+        run: npm run lint:css
   deploy:
     needs: build
     runs-on: ubuntu-latest
